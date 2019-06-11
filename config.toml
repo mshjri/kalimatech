@@ -1,0 +1,73 @@
+baseURL = "/"
+
+languageCode = "ar"
+DefaultContentLanguage = "ar"
+title = "KalimaTech - مصطلحات واجهة المستخدم بالعربية"
+theme = "docdock"
+# themesdir = "../.."
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+defaultContentLanguage = "ar"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+
+# [Languages]
+# [Languages.en]
+# title = "Documentation for Hugo docDock"
+# weight = 1
+# languageName = "English"
+# 
+# [Languages.fr]
+# title = "Documentation du thème docDock"
+# weight = 2
+# languageName = "Français"
+
+
+
+
+[params]
+editURL = ""
+showVisitedLinks = true # default is false
+themeStyle = "flex" # "original" or "flex" # default "flex"
+themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableHomeIcon = true # default is false
+disableSearch = false # default is false
+disableNavChevron = true # set true to hide next/prev chevron, default is false
+highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+menushortcutsnewtab = true # set true to open shortcuts links to a new tab/window
+enableGitInfo = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> <label>Github repo</label>"
+identifier = "ds"
+url = "https://github.com/mshjri/kalimatech"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-plus'></i> <label>إضافة كلمة</label>"
+url = "https://github.com/mshjri/kalimatech/issues"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-wrench'></i> <label>إقترح تعديل</label>"
+url = "https://github.com/mshjri/kalimatech/issues"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-pencil'></i> <label>ترجم</label>"
+url = "https://github.com/mshjri/kalimatech/issues"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bullhorn'></i> <label>اتصل بي</label>"
+identifier = "hugodoc"
+url = "https://mshjri.com"
+weight = 20
