@@ -63,7 +63,7 @@ weight = 11
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-pencil'></i> <label>ترجم</label>"
-url = "https://github.com/mshjri/kalimatech/issues"
+url = "/needs-translation"
 weight = 11
 
 [[menu.shortcuts]]
